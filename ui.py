@@ -4,7 +4,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 
 # Add sidebar with New Chat button
 with st.sidebar:
-    if st.button("New Chat"):
+    if st.button("New Chat", use_container_width=True):
         # Clear chat history and reset bot state
         st.session_state.messages = []
         st.session_state.state = {
@@ -14,7 +14,7 @@ with st.sidebar:
         st.rerun()
         
 st.title("Zinger Interior Design Bot")
-st.markdown("###### Welcome to the Zinger Assistant Chatbot! Type your message below to start a conversation.")
+st.markdown("###### Welcome to the Zinger Interior Design Bot! Type your message below to start a conversation.")
 
 # Initialize session state for chat history
 if "messages" not in st.session_state:
