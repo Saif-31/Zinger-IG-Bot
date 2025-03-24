@@ -1,0 +1,67 @@
+{
+    "faqs": [{
+            "question": "Da li mi treba neko predznanje iz dizajna ili 3D modeliranja da bih mogla pratiti kurs?",
+            "answer": "Ne, znanje iz dizajna ili 3D modeliranja ti nije potrebno da bi krenula na početni kurs."
+        },
+        {
+            "question": "Koliko je vremena potrebno dnevno da bi uspješno završila kurs?",
+            "answer": "Sve zavisi od toga koliko si ambiciozna. Moja procjena je između 40-60 minuta dnevno ako želiš da održiš kontinuitet učenja. Bolje svaki dan barem po pola sata učiti nego 1 put u sedmici sjesti i učiti 5 sati."
+        },
+        {
+            "question": "Da li se kurs fokusira samo na tehnički dio SketchUp-a ili ima i savjeta za dizajn interijera?",
+            "answer": "Po meni dizajn u 2025. godini nema smisla ako nije objašnjen sa aktuelnim alatima koji se u industriji koriste. Ovaj kurs je poseban jer kombinuje znanje dizajna i tehničkog aspekta SketchUp-a te je fokusiran samo na crtanje interijera."
+        },
+        {
+            "question": "Da li su lekcije snimljene ili se održavaju uživo?",
+            "answer": "Sve lekcije su snimljene te se nalaze na mojoj platformi. Možeš gledati lekcije koliko god puta želiš."
+        },
+        {
+            "question": "Da li su zadaci obavezni ili su samo preporučeni?",
+            "answer": "Preporučeni. 80% polaznika iskoristi moje mentorstvo jer im to ubrza učenje i imaju priliku dobiti od mene 1:1 odgovor na njihov dizajn i dalje usmjerenje u ovom polju."
+        },
+        {
+            "question": "Kako tačno funkcioniše mentorska podrška – da li mogu da postavljam pitanja kad god mi nešto nije jasno?",
+            "answer": "Mentorska podrška funkcioniše tako što nakon svakog modula ima zadaća. Polaznici mi obično šalju zadaću na pregled emailom, a ukoliko imaju neko brzinsko pitanje, onda mi pišu poruku na WhatsApp. Na zadaću emailom odgovaram u roku 24-48 sati, dok na WhatsApp odgovaram u toku dana."
+        },
+        {
+            "question": "Koliko često mogu očekivati odgovore na svoja pitanja?",
+            "answer": "Odgovaram na sva pitanja vezana za kurs u roku 24-48 sati na email, a na WhatsApp u roku 24 sati."
+        },
+        {
+            "question": "Da li je podrška individualna ili grupna?",
+            "answer": "Individualna. Svi odgovori su između tebe i mene 1:1, tako da se nemaš čega stiditi da me pitaš ma šta god ti bilo nejasno oko kursa."
+        },
+        {
+            "question": "Šta ako mi nešto ne bude jasno nakon isteka mentorske podrške?",
+            "answer": "Nakon isteka mentorske podrške imaš lekcije na platformi kojima imaš pristup godinu dana od početka kursa. Ako ti nešto ne bude jasno, odgovore možeš potražiti u lekcijama na platformi."
+        },
+        {
+            "question": "Da li mogu preuzeti lekcije ili ih mogu gledati samo online?",
+            "answer": "Možeš ih samo gledati online. Svako neovlašteno preuzimanje, dijeljenje ili distribuiranje trećim licima je strogo kažnjivo."
+        },
+        {
+            "question": "Da li postoji neka skripta ili dodatni materijali koji dolaze uz kurs?",
+            "answer": "Ne postoji."
+        },
+        {
+            "question": "Kako funkcioniše platforma – da li trebam instalirati neki poseban program?",
+            "answer": "Platforma se nalazi na webu. Bitno je da ukucaš svoje korisničke podatke (username i password koji ti budu dodijeljeni) i možeš gledati kurs. Platforma se otvara u browseru (zavisno od toga koji koristiš)."
+        },
+        {
+            "question": "Da li mogu platiti kurs na rate?",
+            "answer": "Plaćanje je jednokratno."
+        },
+        {
+            "question": "Da li postoji mogućnost povrata novca ako shvatim da kurs nije za mene?",
+            "answer": "Povrat novca možeš tražiti u roku 48 sati od početka kursa ukoliko si shvatila da ovaj kurs nije za tebe. Nakon 48 sati novac ne vraćamo."
+        },
+        {
+            "question": "Kada tačno kreće kurs i da li mogu početi kasnije ako sada ne stignem?",
+            "answer": "Kurs se odvija 3 puta godišnje: 8. februara, 8. aprila i 8. oktobra. Ukoliko zakasniš na neki od upisnih termina, možeš čekati sljedeći."
+        }
+    ],
+    "closing_message": {
+        "text": "Početni kurs traje 30 dana. Nakon toga imaš pristup lekcijama 1 godinu. Ova ponuda traje do 8.4.2025. Unutar mjesec dana imaš moju mentorsku podršku. Komuniciramo preko email-a i WhatsApp. Kurs se nalazi na mojoj platformi gdje možeš u bilo koje doba dana ili noći da gledaš lekcije i radiš zadaće. Cijena kursa je 308€. Možeš da se prijaviš tako što ćeš mi poslati svoje puno ime i prezime na zerina.zinger@gmail.com. Link: https://dashboard.mailerlite.com/forms/941520/141160806555321595/share",
+        "newsletter_prompt": "Sviđa ti se ovo što čuješ? Imam newsletter s još savjeta i priča od cura koje su već krenule. Hoćeš da ti pošaljem link?"
+    }
+}
