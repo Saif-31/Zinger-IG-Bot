@@ -12,9 +12,10 @@ with st.sidebar:
             "knowledge_base": KNOWLEDGE_BASE
         }
         st.rerun()
-        
+
 st.title("Zinger Interior Design Bot")
 st.markdown("###### Welcome to the Zinger Interior Design Bot! What can I help you today?")
+st.markdown("---")
 
 # Initialize session state for chat history
 if "messages" not in st.session_state:
