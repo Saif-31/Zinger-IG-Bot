@@ -2,6 +2,17 @@ import streamlit as st
 from app import create_bot, KNOWLEDGE_BASE, AgentState, process_message
 from langchain_core.messages import SystemMessage, HumanMessage
 
+# Add sidebar with New Chat button
+with st.sidebar:
+    if st.button("New Chat"):
+        # Clear chat history and reset bot state
+        st.session_state.messages = []
+        st.session_state.state = {
+            "messages": [SystemMessage(content="")],
+            "knowledge_base": KNOWLEDGE_BASE
+        }
+        st.rerun()
+        
 st.title("Zinger Interior Design Bot")
 st.markdown("###### Welcome to the Zinger Assistant Chatbot! Type your message below to start a conversation.")
 
