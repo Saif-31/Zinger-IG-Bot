@@ -8,13 +8,18 @@ from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
 from langgraph.checkpoint.memory import MemorySaver
 from dotenv import load_dotenv
+import streamlit as st
 
 # Load environment variables from .env file
 load_dotenv()
 
-# Ensure OpenAI API Key is set
-if "OPENAI_API_KEY" not in os.environ:
-    raise ValueError("OPENAI_API_KEY not found in environment variables. Please add it to .env file")
+# Set OpenAI API key from Streamlit secrets
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+
+# Check for API key
+if not os.environ.get("OPENAI_API_KEY"):
+    st.error("OpenAI API key is not set!")
+    st.stop()
 
 # Load the knowledge base from a JSON file
 with open('knowledge_base.json', 'r', encoding='utf-8') as f:
